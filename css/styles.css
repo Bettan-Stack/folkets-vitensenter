@@ -518,3 +518,19 @@ h3 {
   .card-body { padding-inline: 20px; }
   .info-card { min-height: 0; }
 }
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn {
+    transition: none;
+  }
+
+  .btn:hover {
+    transform: none;
+  }
+}
+address {
+  font-style: normal;
+}
